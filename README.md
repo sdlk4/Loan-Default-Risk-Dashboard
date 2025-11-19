@@ -18,14 +18,14 @@ This project helps decision-makers and analysts:
 
 ## Project Structure (Actual Layout)
 Loan_default_risk/
-├── data/
-│   └── application_train.csv          # RAW Kaggle dataset (NOT uploaded to GitHub)
-├── scripts/
-│   ├── load_data.py                   # Loads CSV into MySQL (raw table)
-│   └── clean_data.py                  # Cleans data and inserts into MySQL (clean table)
-├── loan_default_risk_dashboard.pbix   # Power BI dashboard (2 pages)
-├── .gitignore                         # Hides .env and CSV
-└── requirements.txt                   # Python dependencies
+- ├── data/
+- │   └── application_train.csv          # RAW Kaggle dataset (NOT uploaded to GitHub)
+- ├── scripts/
+- │   ├── load_data.py                   # Loads CSV into MySQL (raw table)
+- │   └── clean_data.py                  # Cleans data and inserts into MySQL (clean table)
+- ├── loan_default_risk_dashboard.pbix   # Power BI dashboard (2 pages)
+- ├── .gitignore                         # Hides .env and CSV
+- └── requirements.txt                   # Python dependencies
 
 ## Dataset Source (Required Manual Download)
 The dataset cannot be included in the GitHub repo because it exceeds the 100 MB limit.
@@ -123,3 +123,4 @@ This project is free to use for learning, analysis, and portfolio building.
 ## Contact
 
 If you need help customizing this dashboard or extending this project, feel free to reach out via GitHub Issues.
+
