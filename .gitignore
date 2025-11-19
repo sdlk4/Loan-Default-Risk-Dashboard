@@ -10,6 +10,8 @@ env/
 __pycache__/
 *.pyc
 *.pyo
+# Ignore data
+data/*.csv
 
 # Ignore OS files
 .DS_Store
